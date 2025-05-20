@@ -1,0 +1,15 @@
+{
+  "name": "oneness-discount-checker",
+  "version": "1.0.0",
+  "description": "Oneness discount checker with Telegram notification",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "postinstall": "npx playwright install"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "node-telegram-bot-api": "^0.61.0",
+    "playwright": "^1.43.1"
+  }
+}
